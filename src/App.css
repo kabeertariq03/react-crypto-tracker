@@ -1,0 +1,78 @@
+.app {
+  text-align: center;
+  overflow: hidden;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-hidden {
+    display: none;
+  }
+}
+
+
+.app h1 {
+  font-size: 4.6rem;
+  margin: 40px 0;
+}
+span {
+  
+    background: linear-gradient(to right, #3f5efb, #fc466b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  
+}
+
+.App__Input {
+  padding: 15px;
+  border-radius: 20px;
+  border: 4px solid #3f5efb;
+  /* background-color: transparent; */
+  color: black;
+  outline: none;
+  width: 15rem;
+  margin: 20px 0;
+}
+
+
+
+img {
+  display: inline;
+  width: 3rem;
+  height: 3rem;
+}
+
+.app__Img__Title {
+  display: flex;
+  justify-content: space-around;
+  background-color: #111111; /* Slightly lighter black */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); /* Box Shadow */
+  align-items: center;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.app__Img__Title > * {
+  margin: 0 27px;
+}
+
+.pagination > button {
+  background: linear-gradient(to right, #3f5efb, #fc466b);
+  padding: 0.4rem;
+  outline: none;
+  border: none;
+  color: black;
+}
